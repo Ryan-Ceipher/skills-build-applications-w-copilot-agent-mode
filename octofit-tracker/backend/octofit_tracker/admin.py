@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import User, Team, Activity, Leaderboard, Workout
 
-# Placeholder for admin registrations for users, teams, activities, leaderboard, and workouts
+admin.site.register(User)
+admin.site.register(Team)
+admin.site.register(Activity)
+admin.site.register(Leaderboard)
+admin.site.register(Workout)
